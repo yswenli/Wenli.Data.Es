@@ -34,7 +34,7 @@ namespace Wenli.Data.Es
         /// <summary>
         /// 服务器地址
         /// </summary>
-        public string Servers { get; set; } = "10.205.108.137:9200,10.205.46.139:9200,10.205.46.140:9200";
+        public string Servers { get; set; } = "127.0.0.1";
         /// <summary>
         /// 用户名
         /// </summary>
@@ -42,7 +42,7 @@ namespace Wenli.Data.Es
         /// <summary>
         /// 密码
         /// </summary>
-        public string Password { get; set; } = "SjCSCK0MW7A2d0hjWqIh";
+        public string Password { get; set; } = "12321";
         /// <summary>
         /// 超时（秒）
         /// </summary>

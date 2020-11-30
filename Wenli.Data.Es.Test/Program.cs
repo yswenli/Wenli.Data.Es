@@ -25,9 +25,9 @@ namespace Wenli.Data.Es.Test
             //创建客户端
             var esConfig = new ESConfigBuilder()
                  .UsePool()
-                 .SetServer("10.205.108.137:9200,10.205.46.139:9200,10.205.46.140:9200")
+                 .SetServer("127.0.0.1")
                  .SetUserName("elastic")
-                 .SetPassword("SjCSCK0MW7A2d0hjWqIh")
+                 .SetPassword("12321")
                  .SetTimeout(2)
                  .Build();
 
