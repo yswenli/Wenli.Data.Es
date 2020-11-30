@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wenli.Data.Es", "Wenli.Data.Es\Wenli.Data.Es.csproj", "{387757BE-A032-42DA-A5CB-FD853DF98206}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wenli.Data.Es.Test", "Wenli.Data.Es.Test\Wenli.Data.Es.Test.csproj", "{701A559D-9332-4633-93A0-82F8E91D0CD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{387757BE-A032-42DA-A5CB-FD853DF98206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387757BE-A032-42DA-A5CB-FD853DF98206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387757BE-A032-42DA-A5CB-FD853DF98206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387757BE-A032-42DA-A5CB-FD853DF98206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701A559D-9332-4633-93A0-82F8E91D0CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701A559D-9332-4633-93A0-82F8E91D0CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701A559D-9332-4633-93A0-82F8E91D0CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701A559D-9332-4633-93A0-82F8E91D0CD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7060E8BF-3F5B-4032-ABA4-B147AFB6D143}
+	EndGlobalSection
+EndGlobal

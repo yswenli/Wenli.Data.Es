@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>yswenli</Company>
+    <Description>Wenli.Data.Es是Elastic Search的一个轻量级操作封装库，方便使用者更加快捷方便的接入到Elastic Search中</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/yswenli/Wenli.Data.Es</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yswenli/Wenli.Data.Es</RepositoryUrl>
+    <PackageTags>Elastic Search</PackageTags>
+    <Copyright>yswenli</Copyright>
+    <PackageReleaseNotes>Wenli.Data.Es是Elastic Search的一个轻量级操作封装库，方便使用者更加快捷方便的接入到Elastic Search中</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net" Version="7.10.0" />
+    <PackageReference Include="System.Security.Permissions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
