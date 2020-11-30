@@ -1,6 +1,9 @@
 # Wenli.Data.Es
 Wenli.Data.Es 是Elastic Search的一个轻量级操作封装库，方便使用者更加快捷方便的接入到Elastic Search中.
 
+[![NuGet version (Wenli.Data.Es)](https://img.shields.io/nuget/v/Wenli.Data.Es.svg?style=flat-square)](https://www.nuget.org/packages?q=Wenli.Data.Es)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
 ```CSharp
 using System;
 using System.Linq;
